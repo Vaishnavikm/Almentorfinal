@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+
+
+
+{% block content %}
+
+<br><br><br><br>
+
+<div class="jumbotron">
+  <h1 class="display-4">Welcome To Almentor</h1>
+  <p class="lead">An alumni mentor is a guide, friend, and resource who shares educational and professional experiences to provide career guidance and professional contacts. Alumni mentors are partnered with students based on similar career paths, interests, and goals.</p>
+  <hr class="my-4">
+    <p><b>Student signup</b></p>
+  <a class="btn btn-primary btn-lg" href="{% url 'register' %}" role="button">Click Here</a><br><br>
+    <hr>
+      <p><b>Alumni signup</b></p>
+    <a class="btn btn-primary btn-lg" href="{% url 'register1' %}" role="button">Click Here</a>
+</div>
+
+
+
+{% endblock %}
